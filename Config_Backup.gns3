@@ -1,0 +1,421 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "Config_Backup",
+    "project_id": "d4db78f9-4a60-4fb3-b0ac-95ee423b5e74",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "241f525a-3adb-46a6-b932-558023f79fb4",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 69,
+                            "y": 35
+                        },
+                        "node_id": "2e27c109-d546-4610-82db-6922beb6b338",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -31,
+                            "y": 35
+                        },
+                        "node_id": "b1b2a65a-a782-4061-b7b2-1866c1c3c084",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "64fca727-abfb-4d9f-861d-ebe0ecd1feea",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": 65,
+                            "y": 35
+                        },
+                        "node_id": "b1b2a65a-a782-4061-b7b2-1866c1c3c084",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -19,
+                            "y": 44
+                        },
+                        "node_id": "a51d711e-377e-43ee-9933-38b9c43f6bd3",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "693f3859-2818-4385-9121-7e96d15eb3b9",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": 46,
+                            "y": 48
+                        },
+                        "node_id": "8865d693-2664-4205-ad19-293ac861ffb0",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 66,
+                            "y": -13
+                        },
+                        "node_id": "f889b071-fada-44a7-8ff9-8aee1eb9e960",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "2a4c4b47-5ab7-48ff-85c5-d213180b35e3",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "0/2"
+                        },
+                        "node_id": "b1b2a65a-a782-4061-b7b2-1866c1c3c084",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "0/0"
+                        },
+                        "node_id": "8865d693-2664-4205-ad19-293ac861ffb0",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "fa93b603-1fc1-47fa-8569-005a5e019e2a",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "nat0",
+                            "x": 51,
+                            "y": 76
+                        },
+                        "node_id": "386a3477-a860-4d94-ac2e-fb9bc4c79ca4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/3",
+                            "x": 55,
+                            "y": -11
+                        },
+                        "node_id": "b1b2a65a-a782-4061-b7b2-1866c1c3c084",
+                        "port_number": 3
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5002,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU3",
+                    "x": 12,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "IOU3",
+                "node_id": "2e27c109-d546-4610-82db-6922beb6b338",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 1,
+                    "ethernet_adapters": 2,
+                    "l1_keepalives": false,
+                    "md5sum": "2f24ecc2e0103ec181eeda9a2ebc5fe6",
+                    "nvram": 256,
+                    "path": "i86bi-linux-l3-jk9s-15.0.1.bin",
+                    "ram": 1024,
+                    "serial_adapters": 2,
+                    "usage": "enable\n",
+                    "use_default_iou_values": false
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "84533e13-cb9d-419f-85c8-c89494ed542a",
+                "width": 66,
+                "x": -244,
+                "y": -209,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5003,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU4",
+                    "x": 12,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "IOU4",
+                "node_id": "b1b2a65a-a782-4061-b7b2-1866c1c3c084",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 2,
+                    "ethernet_adapters": 2,
+                    "l1_keepalives": false,
+                    "md5sum": "2f24ecc2e0103ec181eeda9a2ebc5fe6",
+                    "nvram": 256,
+                    "path": "/home/gns3/GNS3/images/i86bi-linux-l3-jk9s-15.0.1/i86bi-linux-l3-jk9s-15.0.1.bin",
+                    "ram": 1024,
+                    "serial_adapters": 2,
+                    "usage": "enable\n",
+                    "use_default_iou_values": false
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "84533e13-cb9d-419f-85c8-c89494ed542a",
+                "width": 66,
+                "x": -70,
+                "y": -177,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5004,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU5",
+                    "x": 12,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "IOU5",
+                "node_id": "a51d711e-377e-43ee-9933-38b9c43f6bd3",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 3,
+                    "ethernet_adapters": 2,
+                    "l1_keepalives": false,
+                    "md5sum": "2f24ecc2e0103ec181eeda9a2ebc5fe6",
+                    "nvram": 256,
+                    "path": "/home/gns3/GNS3/images/i86bi-linux-l3-jk9s-15.0.1/i86bi-linux-l3-jk9s-15.0.1.bin",
+                    "ram": 1024,
+                    "serial_adapters": 2,
+                    "usage": "enable\n",
+                    "use_default_iou_values": false
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "84533e13-cb9d-419f-85c8-c89494ed542a",
+                "width": 66,
+                "x": 114,
+                "y": -174,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5005,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU6",
+                    "x": -14,
+                    "y": -21
+                },
+                "locked": false,
+                "name": "IOU6",
+                "node_id": "8865d693-2664-4205-ad19-293ac861ffb0",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 4,
+                    "ethernet_adapters": 2,
+                    "l1_keepalives": false,
+                    "md5sum": "2f24ecc2e0103ec181eeda9a2ebc5fe6",
+                    "nvram": 256,
+                    "path": "/home/gns3/GNS3/images/i86bi-linux-l3-jk9s-15.0.1/i86bi-linux-l3-jk9s-15.0.1.bin",
+                    "ram": 1024,
+                    "serial_adapters": 2,
+                    "usage": "enable\n",
+                    "use_default_iou_values": false
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "84533e13-cb9d-419f-85c8-c89494ed542a",
+                "width": 66,
+                "x": -83,
+                "y": -90,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5006,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU7",
+                    "x": -28,
+                    "y": -30
+                },
+                "locked": false,
+                "name": "IOU7",
+                "node_id": "f889b071-fada-44a7-8ff9-8aee1eb9e960",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 5,
+                    "ethernet_adapters": 2,
+                    "l1_keepalives": false,
+                    "md5sum": "2f24ecc2e0103ec181eeda9a2ebc5fe6",
+                    "nvram": 256,
+                    "path": "/home/gns3/GNS3/images/i86bi-linux-l3-jk9s-15.0.1/i86bi-linux-l3-jk9s-15.0.1.bin",
+                    "ram": 1024,
+                    "serial_adapters": 2,
+                    "usage": "enable\n",
+                    "use_default_iou_values": false
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "84533e13-cb9d-419f-85c8-c89494ed542a",
+                "width": 66,
+                "x": -90,
+                "y": 20,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "NAT1",
+                    "x": 58,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "NAT1",
+                "node_id": "386a3477-a860-4d94-ac2e-fb9bc4c79ca4",
+                "node_type": "nat",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "interface": "virbr0",
+                            "name": "nat0",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/nat.svg",
+                "template_id": "df8f4ea9-33b7-3e96-86a2-c39bc9bb649c",
+                "width": 159,
+                "x": -46,
+                "y": -293,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.57",
+    "zoom": 100
+}

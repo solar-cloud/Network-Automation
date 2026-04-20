@@ -1,0 +1,6 @@
+.env
+__pycache__/
+inventory.csv
+project-files/
+*.txt
+

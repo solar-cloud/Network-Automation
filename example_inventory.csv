@@ -1,0 +1,6 @@
+device_type,host,username,password,secret
+cisco_ios,9.1.9.1,student1,twilight,class
+cisco_ios,3.2.1.6,student2,beach,help
+cisco_ios,5.6.7.8,staff3,zoo,evening
+cisco_ios,1.2.3.4,head,crater,night
+cisco_ios,11.12.13.14,staff5,lunar,daytime
