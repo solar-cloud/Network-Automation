@@ -43,6 +43,6 @@ How to Use
     Rename .env.example to .env and add your Slack Webhook URL.
 
     Run the Python scripts
-    * **For Monitoring:** `python3 monitor.py`
-    * **For Backups:** `python3 backup.py`
-    * **For Compliance:** `python3 compliance.py`
+    For Monitoring: python3 monitor.py
+    For Backups: python3 backup.py
+    For Compliance: python3 compliance.py
