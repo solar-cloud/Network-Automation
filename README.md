@@ -38,7 +38,7 @@ How to Use
 
     Clone the repo.
 
-    Populate example_inventory.csv with your device IPs.
+    Populate example_inventory.csv with your device details.
     
     Rename .env.example to .env and add your Slack Webhook URL.
 
