@@ -9,8 +9,6 @@ from netmiko import ConnectHandler
 from netmiko.exceptions import NetmikoAuthenticationException,NetmikoTimeoutException
 
 load_dotenv()
-now = datetime.now()
-timestamp = now.strftime("%d-%m-%Y_%H:%M:%S")
 url = os.environ.get("SLACK_WEBHOOK_URL")
 def slack_alert(alert):
      payload={"text":alert}
@@ -53,6 +51,8 @@ def monitor(device):
                 print(f"Unexpected error on {device['host']}: {e}")
 
 while True:
+    now = datetime.now()
+    timestamp = now.strftime("%d-%m-%Y_%H:%M:%S")
     print(f"{timestamp}: Polling the devices...")
     threads=list()
     with open ("inventory.csv") as f:
