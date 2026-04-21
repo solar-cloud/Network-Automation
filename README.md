@@ -10,7 +10,7 @@ Core Features
 
     Real-time Monitor: Polling system that detects interface failures and BGP neighbor drops, sending instant alerts to Slack.
 
-    Compliance Remediation: A "self-healing" script that enforces security standards (Disabling Telnet, enabling timestamps on log messages, adding MOTD banners, and ensuring AEDT time synchronization).
+    Compliance Remediation: A "self-healing" script that enforces network standards (Disabling Telnet, enabling timestamps on log messages, adding MOTD banners, and ensuring AEDT time synchronization).
 
 Tech Stack
 
